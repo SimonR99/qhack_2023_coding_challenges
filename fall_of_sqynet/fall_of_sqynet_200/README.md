@@ -21,9 +21,8 @@ A circuit of the form
 
 will probabilistically implement the combination of unitaries $\alpha U +\beta V$ on the bottom (main) register, where $\alpha$ and $\beta$ are **positive real numbers**, without loss of generality. Here, the single-qubit unitary $W(\alpha,\beta)$ is represented by the matrix
 
-```math
-W(\alpha,\beta)= \frac{1}{\sqrt{\alpha+\beta}}\left(\begin{array}{cc} \sqrt{\alpha} & -\sqrt{\beta} \\ \sqrt{\beta} & \sqrt{\alpha} \end{array}\right)
-```
+
+$$W(\alpha,\beta)= \frac{1}{\sqrt{\alpha+\beta}}\left(\begin{array}{cc} \sqrt{\alpha} & -\sqrt{\beta} \\ \sqrt{\beta} & \sqrt{\alpha} \end{array}\right).$$
 
 The combination will only be applied on the bottom (main) register when we measure the state of the of the top (auxiliary) register to be $\vert 0 \rangle$. 
 

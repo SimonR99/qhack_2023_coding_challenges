@@ -81,7 +81,7 @@ In the code below, you are given various functions:
   $\rho_Q$ (specified by `word` and `lmbda`) to the maximally mixed
   density $\rho_0.$ **You must complete this function**.
 - `bound_verifier`: a function which computes the difference
-$$(1-\lambda)^{|P|} - T(\rho_P(\lambda), \rho_0),$$ with both terms specified by `lmbda` and `P`. **You must complete this function**.
+$(1-\lambda)^{|P|} - T(\rho_P(\lambda), \rho_0),$ with both terms specified by `lmbda` and `P`. **You must complete this function**.
 
 ### Inputs
 
